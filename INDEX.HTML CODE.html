@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lays Website</title>
+
+<!-- CSS File -->
+<link rel="stylesheet" href="style.css">
+
+<!-- JS File -->
+<script src="script.js"></script>
+</head>
+
+<body onload="showPage('home')">
+
+<header>
+    <h1>Welcome to Lays</h1>
+    <p>Crunchy happiness in every bite 🍟</p>
+</header>
+
+<nav>
+    <a onclick="showPage('home')">Home</a>
+    <a onclick="showPage('about')">About</a>
+    <a onclick="showPage('info')">Information</a>
+    <a onclick="showPage('contact')">Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="active">
+    <h2>Home</h2>
+    <p>Welcome to the official Lays website.</p>
+    <img src="https://cdn.dribbble.com/userupload/6593827/file/original-55c6f8fd27d8d4ea50b367e3de83a1c2.png" width="250">
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Lays</h2>
+    <p>Lays is one of the most loved snack brands worldwide.</p>
+    <ul>
+        <li>Premium potatoes</li>
+        <li>Crunchy taste</li>
+        <li>Many flavors</li>
+    </ul>
+</section>
+
+<!-- INFORMATION -->
+<section id="info">
+    <h2>Our Products</h2>
+    <table>
+        <tr>
+            <th>Flavor</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Classic</td>
+            <td>$2</td>
+        </tr>
+        <tr>
+            <td>Barbecue</td>
+            <td>$3.5</td>
+        </tr>
+        <tr>
+            <td>Cheese & Onion</td>
+            <td>$1.5</td>
+        </tr>
+    </table>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Name" required><br><br>
+        <input type="email" placeholder="Email" required><br><br>
+        <textarea placeholder="Message"></textarea><br><br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 Lays | All Rights Reserved
+</footer>
+
+</body>
+</html>
